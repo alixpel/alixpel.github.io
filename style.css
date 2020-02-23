@@ -14,6 +14,16 @@ body
   font-family: 'MedievalSharp';
 }
 
+h1
+{
+  font-family: 'MedievalSharp';
+}
+
+p
+{
+  font-family: 'MedievalSharp';
+}
+
 a
 {
   color: inherit;
