@@ -12,9 +12,10 @@ body
 
 section
 {
-	display: inline-block;
+	
 	vertical-align: top;
-	width: 30%;
+	flex-direction: column;
+	width: 80%;
 	margin-right: 2%;
 }
 
@@ -71,15 +72,15 @@ h3
 		font-size: 0.9em;
 		margin-left: 5px;
 		margin-right: 8px;
-		width: 1;
+		width: 70%;
 	  	height: 300px;
 	 	text-align: justify;
 	 	border: 1px solid grey;
 	 	border-radius: 3px;
 	 	background-color: rgba(255, 255, 255, 0.5);
 		overflow: auto;
-		padding-right: 5px;
-		padding-top: 4px;
+		padding-right: 15px;
+		padding-top: 10px;
 		padding-bottom: 3px;
 		box-shadow: -1px 4px 5px -1px rgba(179,179,179,0.75);
 	}
