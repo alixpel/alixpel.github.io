@@ -17,8 +17,7 @@ a:hover{
   
 
 @media only screen and (min-width:321px) and (max-width:480px) {
-      .btn{font-size:0.875em;
-          display:block;
+      .btn{font-size:1.5em;
           width:100%;
       }
 }
