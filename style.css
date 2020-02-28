@@ -24,6 +24,11 @@ p
   font-family: 'Nanum Gothic';
 }
 
+button
+{
+	font-size: 2em;
+}
+
 a
 {
   color: inherit;
