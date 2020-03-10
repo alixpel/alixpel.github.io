@@ -14,6 +14,16 @@ body
   font-family: 'Nanum Gothic';
 }
 
+.button-group
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 30%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 h1
 {
   font-family: 'Nanum Gothic';
