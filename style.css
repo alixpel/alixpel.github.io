@@ -24,7 +24,7 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 26%;
+	width: 55%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -65,7 +65,20 @@ img
   
 
 @media only screen and (max-width:480px) {
-      .btn{
+      
+	
+	.container
+	{
+ 	padding-top: 40px;
+ 	padding-left: 30px;
+	display: flex;
+	flex direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+	
+	.btn{
         font-size:2em;
         width:100%;
         min-width: 50px;
