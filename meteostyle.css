@@ -10,12 +10,12 @@ body{
 	background-size: cover;
 }
 
-.lameteo {
+/*.lameteo {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin: auto;
-}
+}*/
 
 .temp {
 	display: flex;
