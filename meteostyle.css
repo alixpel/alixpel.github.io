@@ -5,7 +5,7 @@ body{
   	text-align: center;
   	margin-top: 10%;
   	font-family: 'Concert One', cursive;
-  	background-image: url("chalet.jpg");
+  	background-image: url("chalet.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -101,7 +101,7 @@ input {
 @media screen and (max-width: 1100px) {
     body {
         background-color: #f8f7f5;
-        background-image: url("chalet-tablet.jpg");
+        background-image: url("chalet-tablet.JPG");
         background-size: 100%;
     }
     h1 {
@@ -117,7 +117,7 @@ input {
 @media screen and (max-width: 992px) {
     body {
         background-color: #f8f7f5;
-        background-image: url("chalet-smartphone.jpg");
+        background-image: url("chalet-smartphone.JPG");
         background-size: 120%;
     }
     button{
