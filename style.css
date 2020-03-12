@@ -19,7 +19,7 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 30%;
+	width: 26%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
