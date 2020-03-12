@@ -1,0 +1,217 @@
+body{
+  	margin: auto;
+  	background-color: #f8f7f5;
+  	color: white;
+  	text-align: center;
+  	margin-top: 10%;
+  	font-family: 'Concert One', cursive;
+  	background-image: url("chalet.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lameteo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.temp {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 35%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.data-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.data {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+button {
+  border-radius: 3px;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 200px;
+  height: 2.2em;
+  font-family:  'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+  mix-blend-mode: screen;
+  color: rgb(78, 74, 75);
+}
+
+.answer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+p {
+	font-size: 1.1em;
+	font-family: 'Concert One', cursive;
+	border-radius: 3px;
+ 	border: 0px;
+ 	text-shadow: 0px 0px 2px rgba(0,0,0,1);
+}
+
+.legend {
+	width: 7em;
+	/*text-align: right;*/
+}
+
+label{
+  font-size: 2em;
+}
+
+input {
+	height: 2.05em;
+	width: 4em;
+	/*padding: 0.5em 0em 0.5em 0em;*/
+	border-radius: 3px;
+	box-shadow: none;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-family:  'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+ 	font-size: 1em;
+ 	margin-right: 0.2em;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+}
+/*/////// tablet*/
+@media screen and (max-width: 1100px) {
+    body {
+        background-color: #f8f7f5;
+        background-image: url("chalet-tablet.jpg");
+        background-size: 100%;
+    }
+    h1 {
+    font-size: 6.5em;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+	}
+	label {
+    font-size: 4em;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+	}
+}
+/*/////// smartphone*/
+@media screen and (max-width: 992px) {
+    body {
+        background-color: #f8f7f5;
+        background-image: url("chalet-smartphone.jpg");
+        background-size: 120%;
+    }
+    button{
+		border-radius: 8px;
+		border: 0px;
+		background-color: rgba(255, 255, 255, 0.6);
+		/*width: 213px;*/
+		height: 2.2em;
+		padding: 0em 0.4em;
+		font-family:  'Roboto', sans-serif;
+		font-size: 3.15em;
+		font-weight: bolder;
+		mix-blend-mode: screen;
+		color: rgb(78, 74, 75);
+	}
+    h1 {
+	    font-size: 6.5em;
+	    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+	}
+	.title {
+		margin: auto;
+		/*margin-left: 12%;*/
+	}
+	label {
+	    font-size: 4em;
+	    text-shadow: 0px 0px 11px rgba(0,0,0,1);
+	}
+	.temp {
+    	width: 75%;
+	}
+	.data-group {
+		margin-left: 1em;
+	}
+	.data {
+		width: 81%;
+	}
+	p {
+		font-size: 3.4em;
+		font-family: 'Concert One', cursive;
+		border-radius: 3px;
+	 	border: 0px;
+	 	text-shadow: 0px 0px 11px rgba(0,0,0,1);
+	}
+
+	.legend {
+		text-align: left;
+		width: 4.5em;
+		/*margin-left: 1em;*/
+	}
+
+	.answer {
+		margin-left: 0.4em;
+	}
+
+	label{
+	  font-size: 2em;
+	}
+
+	input {
+		height: 2.05em;
+		width: 2.5em;
+		/*padding: 0.5em 0em 0.5em 0em;*/
+		border-radius: 3px;
+		box-shadow: none;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.3);
+		font-family:  'Roboto', sans-serif;
+		color: rgba(255, 255, 255, 1);
+		text-align: center;
+	 	font-size: 3em;
+	 	margin-right: 0.2em;
+	}
+
+}
+
+/*/////// plus petit/////////*/
+@media screen and (max-width: 800px) {
+    body {
+        background-color: olive;
+    }
+}
+@media screen and (max-width: 700px) {
+    body {
+        background-color: pink;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: pink;
+    }
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: purple;
+    }
+
+}
