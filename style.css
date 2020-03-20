@@ -49,6 +49,11 @@ span
 	font-size: 2em;
 }
 
+.fas.fa-thumbtack
+{
+	transform: rotate(-45deg);
+}
+
 a
 {
   color: inherit;
