@@ -47,11 +47,14 @@ h1
 
 p
 {
-	color: black;
+	color: rvb(248, 248, 248);
 	text-align: center;
 	font-family: 'Didact Gothic', Arial, Verdana, "Arial Black", sans-serif;
 	font-weight: bold;
 }
+
+strong {
+	color: black;
 
 h2
 {
