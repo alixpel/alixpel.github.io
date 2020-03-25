@@ -55,6 +55,7 @@ p
 
 strong {
 	color: black;
+}
 
 h2
 {
@@ -71,6 +72,9 @@ h3
 	text-align: center;
 }
 
+fas, far {
+	color: rgb(80, 96, 115);
+}
 
 ul
 {
