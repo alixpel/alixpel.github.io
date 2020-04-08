@@ -56,10 +56,13 @@ h2
 	margin: auto;
 	text-align: center;
 	font-family: "Courier New";
-	color: rgb(80, 96, 115);
+	color: rgb(26, 17, 61);
 	font-size: 1.5rem;
 	font-weight: bold;
 	margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+	border-radius:  0.5rem 0.5rem 0.5rem 0.5rem;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 1rem;
 }
 
 h3
