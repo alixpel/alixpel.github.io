@@ -16,6 +16,11 @@
 		background-color: #E9E2CE;
 	}
 
+	.left {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.button-group
 	{
 		display: flex;
