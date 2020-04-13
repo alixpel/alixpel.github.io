@@ -92,6 +92,12 @@
 		font-family: 'Inria Sans', sans-serif;
 	}
 
+	p.align-center {
+		font-family: 'Inria Sans', sans-serif;
+		text-align: center;
+		margin-top: 0rem;
+	}
+
 	span
 	{
 		font-size: 1.3em;
@@ -115,11 +121,11 @@
 		/*margin-left: 1.3rem;*/
 	}
 	a.works {
-		margin-left: 2rem;
+		margin-left: 3rem;
 	}
 
 	a:hover{
-		font-weight: 700;
+		/* font-weight: 700; */
 		color: #465362;
 		text-decoration: none;
 	}
