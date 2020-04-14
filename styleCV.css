@@ -96,7 +96,7 @@ ul
 	box-shadow: 1px 2px 5px 0px rgba(189,189,189,1);
 }
 
-a
+a, .sous-titre-works
 	{
 		color: rgb(80, 96, 115);
 		line-height: 30px;
@@ -104,7 +104,7 @@ a
 		text-decoration: none;
 	}
 
-a:hover
+a:hover, .sous-titre-works:hover
 	{
 	   color: rgb(254, 172, 103);
 	   background-color: rgba(255, 255, 255, 0.6);
