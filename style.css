@@ -6,12 +6,12 @@
 		justify-content: flex-start;
 		align-items: center;
 		align-content: center;
-		font-family: 'Concert One', cursive;
+		font-family: 'Concert One', sans-serif;
 	}
 
 	body
 	{
-		font-family: 'Concert One', cursive;
+		font-family: 'Concert One', sans-serif;
 		background-color: #E9E2CE;
 	}
 
