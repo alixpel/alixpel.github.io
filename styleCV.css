@@ -39,7 +39,8 @@ footer
 	display : flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 60%;
+	margin: auto;
+	width: 29%;
 }
 
 h1
