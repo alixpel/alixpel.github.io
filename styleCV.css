@@ -183,6 +183,14 @@ img
 		margin-top: 2rem;
 		margin-bottom: 2.8rem;
 	}
+	
+	.footer-links {
+	display : flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+	width: 95%;
+}
 
 	a.point-sommaire {
 		box-shadow: inset 0px 1px 0px 0px #ffffff;
