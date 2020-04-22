@@ -110,6 +110,7 @@ ul
 a, .sous-titre-works
 	{
 		color: rgb(80, 96, 115);
+	   	padding: 3px;
 		line-height: 30px;
 		font-weight: 600;
 		text-decoration: none;
