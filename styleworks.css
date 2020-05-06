@@ -1,0 +1,209 @@
+body
+{
+	font-family: 'Concert One', sans-serif;
+	background-color: #f9f7f2;
+	background-image: url("teckel.jpg");
+	background-size: 80%;
+	background-repeat: repeat-x;
+}
+
+.container-fluid
+{
+	padding-top: 20px;
+	padding-left: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	font-family: 'Concert One', sans-serif;
+}
+
+/* works */
+
+
+.mini-header {
+	margin-bottom: 2.5rem;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	width: 98%;
+}
+
+.domains {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.domain-group {
+	display: flex;
+	flex-direction: row;
+}
+
+.one-domain {
+	background-color: rgba(226, 235, 243, 0.7);
+	padding: 0rem 2rem 1rem 2rem;
+	border-radius: 0.4rem;
+	min-height: 12rem;
+	width: 30%;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 0px 1px 5px -1px #b5ad96;
+}
+
+.round-pins {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 0.1px;
+	color: rgb(250, 250, 250);
+	font-size: 2rem;
+	margin-top: 1.2rem;
+	margin-bottom: 0rem;
+	margin-left: -0.7rem;
+	margin-right: -0.7rem;
+}
+
+.one-pin {
+	background: radial-gradient(circle, rgba(239,239,239,1) 43%, rgba(239,239,239,1) 32%, rgba(2,0,36,1) 100%);
+	border-radius: 1rem;
+	height: 1rem;
+	width: 1rem;
+	box-shadow: -0.5px 1px 3px -1px #1d2c3a;
+}
+
+h1
+{
+	margin-top: 0rem;
+	margin-bottom: 0.2rem;
+	font-family: 'Concert One', cursive;
+	font-size: 3.2rem;
+	color: #EE6C4D;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+}
+
+.sous-titre-works {
+	color: #EAC435;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0.3rem 2.6rem 0.5rem 2.6rem;
+	border-radius: 1.5rem;
+}
+
+h3 {
+	margin-top: 0rem;
+	color: #4C191B;
+	text-align: center;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+}
+
+p
+{
+	font-family: 'Inria Sans', sans-serif;
+}
+
+p.align-center {
+	font-family: 'Inria Sans', sans-serif;
+	text-align: center;
+	margin-top: 0rem;
+}
+
+span
+{
+	font-size: 1.3em;
+}
+
+.fas.fa-thumbtack
+{
+	transform: rotate(-45deg);
+	color: #ECECEC;
+	text-align: center;
+}
+
+.fas.fa-paperclip.fa-sm, .fab.fa-github {
+	color: #ff6a00;
+}
+
+a
+{
+	color: #011936;
+	text-decoration: none;
+}
+a.works {
+	font-size: 0.98rem;
+}
+
+a:hover{
+	/* font-weight: 700; */
+	color: #465362;
+	text-decoration: none;
+}
+
+.button {
+	border-radius: 3rem;
+	padding: 0.3rem 1rem 0.4rem 1rem;
+}
+
+img
+{
+	margin-bottom: 30px;
+	border-radius: 0.4rem;
+}
+
+
+
+@media only screen and (max-width:480px) {
+      
+	
+	.container
+	{
+ 	padding-top: 40px;
+ 	padding-left: 30px;
+	display: flex;
+	flex direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	}
+	.right
+	{
+	margin-left: 0px;
+	}
+	
+	.btn{
+        font-size:2em;
+        width:100%;
+        min-width: 50px;
+        max-width: 300px;
+      	}
+      
+	h1{
+      	font-size: 1.5em;
+      	}
+  
+       	p{
+      	font-size: 2em;
+      	}
+	
+	span
+	{
+		font-size: 4em;
+	}
+	
+	.domains {
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+	.domain-group {
+		display: flex;
+		flex-direction: column;
+	}
+}
