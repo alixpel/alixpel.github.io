@@ -106,10 +106,19 @@ ul
 	box-shadow: 1px 2px 5px 0px rgba(189,189,189,1);
 }
 
-a, .sous-titre-works
+.sous-titre-works
 	{
 		color: rgb(80, 96, 115);
 	   	padding: 3px;
+		line-height: 30px;
+		font-weight: 600;
+		text-decoration: none;
+		font-family: 'Nunito', sans-serif;
+	}
+
+a 	{
+		color: #275858;
+		padding: 3px;
 		line-height: 30px;
 		font-weight: 600;
 		text-decoration: none;
