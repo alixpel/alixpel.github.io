@@ -36,7 +36,8 @@ body
 .domains {
 	width: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
@@ -50,9 +51,10 @@ body
 	padding: 0rem 2rem 1rem 2rem;
 	border-radius: 0.4rem;
 	min-height: 12rem;
-	width: 30%;
+	max-width: 26vw;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
+	min-width: 20vw;
 	box-shadow: 0px 1px 5px -1px #b5ad96;
 }
 
@@ -158,8 +160,8 @@ img
 
 
 @media only screen and (max-width:480px) {
-      
-	
+
+
 	.container
 	{
  	padding-top: 40px;
@@ -174,36 +176,32 @@ img
 	{
 	margin-left: 0px;
 	}
-	
+
 	.btn{
         font-size:2em;
         width:100%;
         min-width: 50px;
         max-width: 300px;
       	}
-      
+
 	h1{
       	font-size: 1.5em;
       	}
-  
+
        	p{
       	font-size: 2em;
       	}
-	
+
 	span
 	{
 		font-size: 4em;
 	}
-	
-	.domains {
-	width: 95%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	}
 
-	.domain-group {
-		display: flex;
-		flex-direction: column;
+	.domains {
+		align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 95%;
 	}
 }
