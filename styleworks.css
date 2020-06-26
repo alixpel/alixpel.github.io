@@ -159,12 +159,11 @@ img
 
 
 
-@media only screen and (max-width:480px) {
-
+@media all and (max-device-width: 480px) {
 	body {
-	background-repeat: repeat-y;
+		background-size: 220%;
+		background-repeat: repeat-y;
 	}
-
 
 	.container
 	{
@@ -176,36 +175,61 @@ img
 	align-items: center;
 	align-content: center;
 	}
+
 	.right
 	{
 	margin-left: 0px;
 	}
 
-	.btn{
-        font-size:2em;
-        width:100%;
-        min-width: 50px;
-        max-width: 300px;
-      	}
+	.domains {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 95%;
+	}
 
-	h1{
-      	font-size: 1.5em;
-      	}
+	.one-domain {
+		min-height: 30rem;
+		max-width: 84vw;
+		min-width: 80vw;
+	}
 
-       	p{
-      	font-size: 2em;
-      	}
+	.one-pin {
+		height: 3rem;
+		width: 3rem;
+	}
+
+	.btn {
+    font-size:2em;
+    width:100%;
+    min-width: 50px;
+    max-width: 300px;
+  	}
+
+	h1 {
+		font-size: 6.5em;
+	}
+
+	h2 {
+		font-size: 4em;
+	}
+
+	h3 {
+		font-size: 3em;
+	}
+
+ 	p {
+		font-size: 2em;
+	}
 
 	span
 	{
 		font-size: 4em;
 	}
 
-	.domains {
-		align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 95%;
+	a.works {
+		font-size: 2em;
 	}
+
 }
