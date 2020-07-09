@@ -1,5 +1,4 @@
-	.container
-	{
+	.container {
 		padding-top: 20px;
 		padding-left: 30px;
 		display: flex;
@@ -9,8 +8,7 @@
 		font-family: 'Concert One', sans-serif;
 	}
 
-	body
-	{
+	body {
 		font-family: 'Concert One', sans-serif;
 		background-color: #f9f7f2;
 	}
@@ -20,8 +18,7 @@
 		flex-direction: column;
 	}
 
-	.button-group
-	{
+	.button-group {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -30,15 +27,14 @@
 		margin-bottom: 30px;
 	}
 
-	.right
-	{
+	.right {
 		background-color: #EEEEEE;
 		padding: 1rem 1rem 1rem 1.3rem;
 		border-radius: 0.4rem;
 	}
 
-	/* works */
 
+	/* works */
 
 	.mini-header {
 		margin-bottom: 2.5rem;
@@ -61,7 +57,6 @@
 	.domain-group {
 		display: flex;
 		flex-direction: row;
-		/*width: 100%;*/
 	}
 
 	.one-domain {
@@ -96,8 +91,7 @@
 		box-shadow: -0.5px 1px 3px -1px #1d2c3a;
 	}
 
-	h1
-	{
+	h1 {
 		margin-top: 0rem;
 		margin-bottom: 0.2rem;
 		font-family: 'Concert One', cursive;
@@ -115,8 +109,7 @@
 		text-align: center;
 	}
 
-	p
-	{
+	p {
 		font-family: 'Inria Sans', sans-serif;
 	}
 
@@ -126,13 +119,7 @@
 		margin-top: 0rem;
 	}
 
-	span
-	{
-		font-size: 1.3em;
-	}
-
-	.fas.fa-thumbtack
-	{
+	.fas.fa-thumbtack {
 		transform: rotate(-45deg);
 		color: #ECECEC;
 		text-align: center;
@@ -142,73 +129,77 @@
 		color: #ff6a00;
 	}
 
-	a
-	{
+	a {
 		color: #011936;
 		text-decoration: none;
-		/*margin-left: 1.3rem;*/
 	}
+
 	a.works {
 		margin-left: 3rem;
 	}
 
-	a:hover{
-		/* font-weight: 700; */
+	a:hover {
 		color: #465362;
 		text-decoration: none;
 	}
 
 	.button {
 		border-radius: 3rem;
+		font-size: 1.3em;
 		padding: 0.3rem 1rem 0.4rem 1rem;
 	}
 
-	img
-	{
+	img {
 		margin-bottom: 30px;
 		border-radius: 0.4rem;
 	}
 
+/* ======================================================= */
+/* ======================================================= */
+
+	@media all and (max-device-width: 480px) {
 
 
-	@media only screen and (max-width:480px) {
-	      
-		
-		.container
-		{
-	 	padding-top: 40px;
-	 	padding-left: 30px;
+		.container {
+		align-items: center;
+		justify-content: center;
 		display: flex;
 		flex direction: column;
 		justify-content: flex-start;
-		align-items: center;
-		align-content: center;
+		margin: auto;
 		}
-		.right
-		{
+
+		.left {
+			margin: auto;
+			width: 80vw;
+		}
+
+		.right {
 		margin-left: 0px;
 		}
-		
-		.btn{
-	        font-size:2em;
-	        width:100%;
-	        min-width: 50px;
-	        max-width: 300px;
-	      	}
-	      
-		h1{
-	      	font-size: 1.5em;
-	      	}
-	  
-	       	p{
-	      	font-size: 2em;
-	      	}
-		
-		span
-		{
-			font-size: 4em;
+
+		.button-group {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 93%;
+			margin-top: 8vh;
+			margin-bottom: 8vh;
 		}
-		
+
+		.button {
+	    font-size: 5em;
+			padding: 3rem 2rem;
+	  }
+
+		h1 {
+    	font-size: 8em;
+    }
+
+   	p {
+  	font-size: 2em;
+  	}
+
 		.domains {
 		width: 95%;
 		display: flex;
@@ -219,5 +210,9 @@
 		.domain-group {
 			display: flex;
 			flex-direction: column;
+		}
+
+		img {
+			width: 100%;
 		}
 	}
