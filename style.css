@@ -16,12 +16,13 @@
 	.main {
 		display: flex;
 		flex-direction: column;
+		maw-width: 417px;
 	}
 
 	.button-group {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		width: 20%;
 		margin-top: 14px;
 		margin-bottom: 30px;
