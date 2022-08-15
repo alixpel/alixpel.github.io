@@ -16,7 +16,8 @@
 	.main {
 		display: flex;
 		flex-direction: column;
-		maw-width: 417px;
+		margin: auto;
+		max-width: 417px;
 	}
 
 	.button-group {
