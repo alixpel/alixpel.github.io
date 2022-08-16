@@ -113,14 +113,14 @@
 			display: flex;
 			justify-content: center;
 			margin: auto;
-			width: 100%;
+			/*width: 100%;*/
 		}
 
 		.button-group {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
-			width: 93%;
+			justify-content: space-evenly;
+			/*width: 93%;*/
 			margin-top: 8vh;
 			margin-bottom: 8vh;
 		}
