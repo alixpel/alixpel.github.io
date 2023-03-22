@@ -1,5 +1,4 @@
-
-	body {
+body {
 		font-family: 'Concert One', sans-serif;
 		background-color: #f9f7f2;
 	}
@@ -16,9 +15,13 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		margin-top: 14px;
-		margin-bottom: 30px;
 		margin: auto;
+		margin-bottom: 3vh;
+		margin-top: 2vh;
+	}
+
+	.images {
+		text-align: center;
 	}
 
 	.links {
@@ -26,6 +29,11 @@
 		margin-bottom: 25px;
 		padding: 1rem 1rem 1rem 1.3rem;
 		border-radius: 0.4rem;
+	}
+
+	#LOL {
+		display: flex;
+		justify-content: space-around;
 	}
 
 	h1 {
@@ -69,12 +77,22 @@
 		padding: 0.5rem 1rem 0.4rem 1rem;
 	}
 
+	.button:hover {
+		border-radius: 0.5rem;
+		transition: transform 650ms;
+	  }
+
+	.button:not(:hover) {
+		transition: transform 650ms;
+	  }
+
 	.jacquouillejour, .jacquouillenuit {
 		margin-bottom: 30px;
 		border-radius: 0.4rem;
+		width: -webkit-fill-available;
 	}
 
-	#emojiLol {
+	#catPic {
 		border-radius: 0.4rem;
 	}
 
@@ -95,7 +113,6 @@
 		}
 
 		#LOL {
-			display: flex;
 			justify-content: center;
 			margin: auto;
 			width: 100%;
@@ -106,8 +123,8 @@
 			flex-direction: row;
 			justify-content: space-evenly;
 			width: 93%;
-			margin-top: 8vh;
-			margin-bottom: 8vh;
+			margin-top: 4vh;
+			margin-bottom: 4vh;
 		}
 
 		.button {
@@ -127,7 +144,7 @@
 			width: 100%;
 		}
 
-		#emojiLol {
+		#catPic {
 			height: 20rem;
 			width: 20rem;
 		}
